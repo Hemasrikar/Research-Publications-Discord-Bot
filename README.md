@@ -10,11 +10,13 @@ A Discord bot that automatically fetches and posts the latest research papers fr
 
 ## Features
 
-- Add a channel in your server to receive the latest research papers using `/setchannel` command.
-- Supports multiple servers and channels.
-- Automatically posts the latest 3 papers every 6 hours.
-- Works with any research topic (keywords supported by arXiv).
-- Lightweight and easy to run 24/7.
+- Add a channel in your server to receive the latest research papers using `/setchannel` command
+- Supports multiple servers and channels
+- Automatically posts the latest 3 papers every 6 hours
+- Works with any research topic (keywords supported by arXiv)
+
+**Drawback**: Need to run manually everytime to check for updates. To automate things, the program can be hosted
+on some server. Currently working on it and making UI friendly.
 
 ---
 
