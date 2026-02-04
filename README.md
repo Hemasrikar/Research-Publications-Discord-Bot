@@ -4,6 +4,10 @@ A Discord bot that automatically fetches and posts the latest research papers fr
 
 ---
 
+#### *NOTE: This project is still in development*
+
+---
+
 ## Features
 
 - Add a channel in your server to receive the latest research papers using `/setchannel` command.
