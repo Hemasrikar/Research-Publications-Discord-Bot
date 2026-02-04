@@ -39,7 +39,7 @@ async def setchannel(interaction: discord.Interaction, topic: str):
         json.dump(config, f, indent=2)
 
     await interaction.response.send_message(
-        f"✅ This channel is now subscribed to **{topic}** papers.",
+        f" This channel is now subscribed to **{topic}** papers.",
         ephemeral=True
     )
 
@@ -73,7 +73,7 @@ async def check_arxiv():
 async def on_ready():
     # Sync global commands
     await tree.sync()
-    print(f"✅ Logged in as {client.user}")
+    print(f" Logged in as {client.user}")
     check_arxiv.start()
 
 client.run(TOKEN)
